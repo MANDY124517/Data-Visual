@@ -1,0 +1,42 @@
+/* style.css */
+.stApp {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4fc3f7;
+}
+
+.st-bb {
+    background-color: rgba(25, 55, 75, 0.7);
+}
+
+.st-bq {
+    border-left-color: #4fc3f7;
+}
+
+.stSelectbox, .stSlider, .stMultiSelect {
+    background-color: rgba(25, 55, 75, 0.7);
+}
+
+.stButton>button {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    color: white;
+    border: none;
+}
+
+.stDownloadButton>button {
+    background: linear-gradient(to right, #373b44, #4286f4);
+    color: white;
+    border: none;
+}
+
+.stTab {
+    background-color: rgba(15, 30, 45, 0.7);
+}
+
+.stTab [aria-selected="true"] {
+    background-color: #2193b0;
+    color: white;
+}
